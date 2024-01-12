@@ -1,9 +1,11 @@
 const express=require('express')
 const mongoose=require('mongoose');
-const { createProduct } = require('./controllers/Product-controllers');
-const router=express();
+const server=express();
+const productRouters=require('./routes/ProductRouters')
 
-router.use(express.json())
+server.use(express.json())
+server.use('/products',productRouters.router)
+
 main();
 async function main(){
     try {
@@ -15,12 +17,10 @@ async function main(){
 }
 
 
-router.get('/',(req,res)=>{
-    res.send('this is home page')
-})
 
-router.post('/product',createProduct);
 
-router.listen(8080,()=>{
+
+
+server.listen(8080,()=>{
     console.log('server is listen 8080')
 })

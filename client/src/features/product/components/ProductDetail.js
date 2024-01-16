@@ -31,6 +31,7 @@ export default function ProductDetail() {
 
   const handleCart = (e) => {
     e.preventDefault();
+    console.log('Product:', product);
     if (items.findIndex((item) => item.product.id === product.id) < 0) {
       console.log({ items, product });
       const newItem = {

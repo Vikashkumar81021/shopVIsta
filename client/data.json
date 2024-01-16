@@ -70,7 +70,8 @@
         "https://i.dummyjson.com/data/products/4/2.jpg",
         "https://i.dummyjson.com/data/products/4/3.jpg",
         "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": 5,
@@ -87,7 +88,8 @@
         "https://i.dummyjson.com/data/products/5/1.jpg",
         "https://i.dummyjson.com/data/products/5/2.jpg",
         "https://i.dummyjson.com/data/products/5/3.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": 6,
@@ -105,7 +107,8 @@
         "https://i.dummyjson.com/data/products/6/2.jpg",
         "https://i.dummyjson.com/data/products/6/3.png",
         "https://i.dummyjson.com/data/products/6/thumbnail.png"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": 7,
@@ -123,7 +126,8 @@
         "https://i.dummyjson.com/data/products/7/2.jpg",
         "https://i.dummyjson.com/data/products/7/3.jpg",
         "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": 8,
@@ -142,7 +146,8 @@
         "https://i.dummyjson.com/data/products/8/3.jpg",
         "https://i.dummyjson.com/data/products/8/4.jpg",
         "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": 9,
